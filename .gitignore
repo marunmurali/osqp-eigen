@@ -11,3 +11,8 @@ tramp
 #build
 /build/
 *.user
+/example/build/
+/devel/
+/.vscode/
+/.catkin_tools/
+/logs/

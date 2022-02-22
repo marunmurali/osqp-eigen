@@ -13,6 +13,7 @@
 #include <Eigen/Dense>
 
 #include <iostream>
+#include <fstream>
 
 void setDynamicsMatrices(Eigen::Matrix<double, 12, 12> &a, Eigen::Matrix<double, 12, 4> &b)
 {

@@ -13,5 +13,5 @@ find_package(Eigen3)
 include_directories(SYSTEM ${EIGEN3_INCLUDE_DIR})
 
 #MPCExample
-add_executable(MPCExample src/MPCExample.cpp)
-target_link_libraries(MPCExample OsqpEigen::OsqpEigen)
+add_executable(MPCExample src/MPCExampleFlaptterParam.cpp)
+target_link_libraries(MPCExample OsqpEigen::OsqpEigen osqp::osqp)

@@ -34,11 +34,13 @@ Please follow this [link](https://osqp.org/docs/get_started/sources.html#install
    OsqpEigen_DIR=/path/where/you/installed/
    ```
 ## 📝 Building the example
+   ```
    cd example
    mkdir build
    cd build
    cmake ../
    make
+   ```
 
    find the mpc_log.csv file inside build
 ## 🖥️ How to use the library
